@@ -6,19 +6,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Base {
-	
-	
-	
-	public WebDriver driver ;
-	public WebDriver getDriver () {
+
+	public WebDriver driver;
+	public WebDriver getDriver() {
 		System.setProperty("webdriver.chrome.driver", "./Browser/chromedriver");
 		driver = new ChromeDriver ();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.amazon.com/");
 		driver.getTitle();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
-	
+		
+		
+		
 	}
-
+	
+	
+	
+	
 }

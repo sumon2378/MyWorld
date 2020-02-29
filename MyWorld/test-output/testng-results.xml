@@ -2,19 +2,19 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="239" started-at="2020-02-29T06:03:23Z" finished-at="2020-02-29T06:03:23Z">
+  <suite name="Default suite" duration-ms="260" started-at="2020-02-29T17:27:52Z" finished-at="2020-02-29T17:27:52Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="239" started-at="2020-02-29T06:03:23Z" finished-at="2020-02-29T06:03:23Z">
+    <test name="Default test" duration-ms="260" started-at="2020-02-29T17:27:52Z" finished-at="2020-02-29T17:27:52Z">
       <class name="com.testrunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="setUpClass" is-config="true" duration-ms="180" started-at="2020-02-29T06:03:23Z" finished-at="2020-02-29T06:03:23Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="setUpClass" is-config="true" duration-ms="190" started-at="2020-02-29T17:27:52Z" finished-at="2020-02-29T17:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="feature" duration-ms="0" started-at="2020-02-29T06:03:23Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-29T06:03:23Z">
+        <test-method status="SKIP" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="feature" duration-ms="0" started-at="2020-02-29T17:27:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-29T17:27:52Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.IllegalArgumentException: Not a file or directory: /Users/sheiksumon/git/MyWorld/MyWorld/Feature]]>
@@ -69,7 +69,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2020-02-29T06:03:23Z" finished-at="2020-02-29T06:03:23Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@5442a311]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2020-02-29T17:27:52Z" finished-at="2020-02-29T17:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
